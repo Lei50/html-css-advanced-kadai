@@ -12,6 +12,9 @@ p {
   width: 100%;
 }
 
+
+
+
 /*================
 PC用のスタイル 
 =================*/
@@ -53,6 +56,7 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+
 }
 
 /*================
@@ -65,11 +69,6 @@ PC用のスタイル
     margin: 0 auto 0 auto;
   }
 
-  /* ナビゲーションのレイアウト */
-  #nav-pc {
-    display: none;
-  }
-  
   #menu-sp {
     float: right;
     padding: 0;
@@ -134,9 +133,10 @@ PC用のスタイル
      margin: 0 20px 0 20px;
      height: 44px;
      font-size: 16px;
-     background-image: url("images/arrow.png");
+     background-image: url(images/arrow.png);
      background-repeat: no-repeat;
      background-position: right top;
    }
 
 }
+
