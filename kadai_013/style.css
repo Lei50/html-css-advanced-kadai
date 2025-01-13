@@ -19,13 +19,13 @@ p {
 PC用のスタイル 
 =================*/
 @media screen and (min-width: 768px) {
-
   #nav-sp,
   #menu-sp {
     display: none;
 
   }
-  
+
+
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -111,6 +111,9 @@ PC用のスタイル
     position: absolute;
     top: 20px;
     right: 20px;
+    background-color: transparent;
+    border: none
+    }
   }
 
   #logo-sp {
